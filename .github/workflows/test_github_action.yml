@@ -19,3 +19,5 @@ jobs:
           target_url: "https://brokencrystals.com/"
           sarif: true
           gpat: ${{ secrets.SOOS_GITHUB_PAT }}
+          branch_name: ${{ github.ref }}
+          commit_hash: ${{ github.sha }}
