@@ -1,2 +1,1 @@
 # test-sarif-action
-
